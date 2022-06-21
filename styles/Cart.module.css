@@ -1,0 +1,75 @@
+.container {
+    padding: 50px;
+    display: flex;
+
+}
+
+.left {
+    flex: 2;
+    
+}
+
+.right {
+    flex: 1;
+
+
+}
+
+.imgContainer {
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+}
+
+.table {
+    width: 100%;
+    border-spacing: 20px;
+    text-align: center;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.total {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--gray-color);
+}
+
+.wrapper {
+    width: 90%;
+    max-height: 300px;
+    background-color: var(--second-background);
+    padding: 50px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--gray-color);
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    margin-bottom: 10px;
+}
+
+.totalTextTitle {
+    margin-right: 10px;
+}
+
+.button {
+    background-color: var(--primary-color);
+    height: 30px;
+    color: var(--white-color);
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}

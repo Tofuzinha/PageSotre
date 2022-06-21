@@ -1,0 +1,63 @@
+.container {
+    height: calc(100vh - 100px);
+    background-color: var(--primary-color);
+    overflow: hidden;
+}
+
+.arrowContainer {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.wrapper {
+    width: 300vw;
+    height: 100%;
+    display: flex;
+    transition: all 1.5s ease-in-out;
+}
+
+
+.imgContainer {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+} 
+
+
+.textContainer {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+  
+}
+
+.textContainer h1 {
+    font-size: 7rem;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+.textContainer h3 {
+
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--white-color);
+    letter-spacing: 5px;
+    border-bottom: 2px solid #fff;
+}
+
+.textContainer h3:first-child {
+    border: none;
+
+}
